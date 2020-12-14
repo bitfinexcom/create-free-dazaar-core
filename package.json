@@ -1,0 +1,30 @@
+{
+  "name": "@bitfinex/create-free-dazaar-core",
+  "version": "1.0.0",
+  "description": "create a free dazaar core",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/create-free-dazaar-core.git"
+  },
+  "keywords": [
+    "dazaar"
+  ],
+  "author": "Robert <robert@bitfinex.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dazaar": "^1.4.0",
+    "derive-key": "^1.0.1",
+    "hyperbee": "^1.1.0",
+    "hypercore": "^9.6.0",
+    "hypercore-protocol": "^8.0.7"
+  },
+  "devDependencies": {
+    "random-access-memory": "^3.1.1",
+    "rimraf": "^3.0.2",
+    "standard": "^16.0.3"
+  }
+}
